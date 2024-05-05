@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">    <form name="form" action="">
+   
+        <div style=" color: white; font-weight: 600; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 2rem;">-/Calculator+%</div>
+        <input name="answer" type="text" id="display" method="post">
+        <br><br>
+        <div class="op">
+        <input type="button" class="btn" value="+" onclick="form.answer.value+='+'">
+        <input type="button" class="btn" value="-" onclick="form.answer.value+='-'">
+        <input type="button" class="btn" value="*" onclick="form.answer.value+='*'">
+        
+        <input type="button" class="btn" value="c" onclick="form.answer.value=''"></div><br>
+       
+        <input type="button" class="btn" value="=" onclick="form.answer.value='='+eval(form.answer.value)">
+        <input type="button" class="btn" value="%" onclick="form.answer.value+='/'">
+        <input type="button" class="btn" value="7" onclick="form.answer.value+='7'">
+        <input type="button" class="btn" value="8" onclick="form.answer.value+='8'"><br><br>
+        <input type="button" class="btn" value="9" onclick="form.answer.value+='9'">
+
+        <input type="button" class="btn" value="4" onclick="form.answer.value+='4'">
+        <input type="button" class="btn" value="5" onclick="form.answer.value+='5'">
+        <input type="button" class="btn" value="6" onclick="form.answer.value+='6'">
+        <br><br>
+        <input type="button" class="btn" value="3" onclick="form.answer.value+='3'">
+        <input type="button" class="btn" value="2" onclick="form.answer.value+='2'">
+        <input type="button" class="btn" value="1" onclick="form.answer.value+='1'">
+
+        <input type="button" class="btn" value="0" onclick="form.answer.value+='0'">
+      
+        
+    
+
+    </form></div>
+
+</body>
+</html>
